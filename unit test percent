@@ -1,0 +1,10 @@
+# ctrl-f print(summary) in unit test, paste following code directly above
+# not super difficult to do, just really nice to see in my opinion
+
+# Name: Unit Test Percent
+# Time: 3.6.2023 @ 8:54 am
+
+# takes total number of points and divides by number of points completed, rounds to 2 decimal points, adds parentheses and percent sign. 
+percent = str(round(self.score / self.num_tests * 100,1))
+percent = ' (' + percent + '%' + ')'
+summary += percent
